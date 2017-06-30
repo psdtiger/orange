@@ -19,7 +19,7 @@ public class Yose {
         final Gson gson = new Gson();
 
         server.start(new DynamicRoutes() {{
-            get("/").to((request, response) -> response.body("Hello Yose"));
+            get("/").to((request, response) -> response.body("<HTML>Hello Yose <br> <a href=\"https://github.com/psdtiger/orange\">Visit PSD Tiger GIT Repo</a> </HTML>"));
             get("/ping").to(new Ping(gson)::pong);
         }});
     }
