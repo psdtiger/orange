@@ -1,4 +1,4 @@
 # orange
 
-Welcome PSD Tiger on Yose The Game !!
+Welcome PSD Tiger on YoseTheGame !!
 
